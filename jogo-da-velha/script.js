@@ -58,37 +58,5 @@ function check() {
     return item[0] === playerLastMove
   })
   console.log(items)
-  // const items = selected.map((item, i)=>{
-  //   //Cria um array para cada item do array ja existente, retornando X ou 0, junto com o index.
-  //   return [item, i]
-  // }).filter((item)=>{
-  //   //Pega todos os arrays criados, e retorna somente os que coincidirem com o último jogador.
-  //   //obs: Aqui há a criação de dois arrays distintos, um para o X e outro para o O.
-  //   //Eu tinha uma dúvida em relação a criação destes dois arrays, como um não substitui o outro..
-  //   //a resposta é que há sim a substituição na "const items", hora o array presente é o que tem o X e outra hora o O.
-  //   //A diferença é que o valor não se perde, porque os valores estão salvos no array selected. e toda vez que se roda a function check
-  //   //os valores são recuperados.
-  //   return item[0] === playerLastMove
-  // }).map((item)=>{
-  //   //Transformo todos os arrays que tem o mesmo item "X ou O", em um único array, pois irá retornar só o item[1] e não como forma de arrayj.
-  //   return item[1]
-  // })
-  
-
-
-
-  // for (pos of positions) {
-  //   if (pos.every((item) => items.includes(item))) {   //Every testa se todos os elementos passam pelo teste, e retorna true ou false.
-  //     alert("O JOGADOR '" + playerLastMove + "' GANHOU!");//pos se torna cada array dentro de position, o callback é conferir se cada item dentro de pos está incluido dentro do array items.
-  //     init();
-  //     return;
-  //   }
-  // }
-
-  // if (selected.filter((item) => item).length === 9) {
-  //   alert("DEU EMPATE!");
-  //   init(); //Para limpar o array e reiniciar o game.
-  //   return;
-  // }
   
 }
